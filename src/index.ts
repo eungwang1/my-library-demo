@@ -1,3 +1,3 @@
-import MyCounter from './components/App'
+import useToast from './hooks/useToast'
 
-export { MyCounter }
+export { useToast }
