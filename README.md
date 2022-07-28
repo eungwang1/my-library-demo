@@ -21,8 +21,8 @@ $ yarn add openknowl-eungwang-library
 @ the gist
 
 ```javascript
-const { openToast } = useToast()
-;<button
+const { openToast } = useToast();
+<button
   onClick={() => {
     openToast({
       type: 'success',
