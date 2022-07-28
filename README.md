@@ -21,8 +21,8 @@ $ yarn add openknowl-eungwang-library
 @ the gist
 
 ```javascript
-const { openToast } = useToast();
-<button
+const { openToast } = useToast()
+;<button
   onClick={() => {
     openToast({
       type: 'success',
@@ -47,4 +47,4 @@ https://codesandbox.io/s/romantic-mayer-5lclub?file=/src/App.tsx
 | Prop name | type                                     | Default value | required |
 | --------- | ---------------------------------------- | ------------- | -------- |
 | type      | "success" \| "error" \| "warn" \| "info" | n/a           | O        |
-| message   | string                                   | ''            | X        |
+| message   | string                                   | n/a           | X        |
